@@ -183,6 +183,7 @@ public class Printer extends Module {
 	private final List<FadeEntry> placed_fade = new ArrayList<>();
 
 	private static final class FadeEntry {
+
 		private int ticks;
 		private final BlockPos pos;
 
